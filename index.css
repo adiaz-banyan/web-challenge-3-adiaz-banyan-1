@@ -59,3 +59,13 @@ footer div {
   text-decoration: none;
   height: 30px;
 }
+
+#selectorThree,
+.selectorOne {
+  color: white;
+  font-size: 20px;
+  border: white solid 1px;
+  position: relative;
+  bottom: 300px;
+  left: 300px;
+}
