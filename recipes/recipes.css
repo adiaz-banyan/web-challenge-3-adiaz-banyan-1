@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgba(224, 0, 176, 0.986);
+  margin: 0;
+  padding: 0;
+}
+
+#fish_dish_title {
+  padding: 10px;
+  width: 100%;
+  background-image: black;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+#main_dish {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.main_course {
+  background: black;
+  padding: 20px 50px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin-top: 70px;
+}
+
+ul {
+  list-style: none;
+}
+
+ol {
+  margin: 50px;
+}
+
+ol li {
+  color: white;
+}

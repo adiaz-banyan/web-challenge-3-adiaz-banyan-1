@@ -1,0 +1,61 @@
+body {
+  background: darkred;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 200px;
+  margin: 10px;
+  border-radius: 50%;
+}
+a {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+a:hover {
+  color: cyan;
+  transform: scale(1.5);
+}
+
+#home_title {
+  width: 100%;
+  text-align: center;
+  color: goldenrod;
+  font-size: 30px;
+  background: black;
+  padding: 0;
+  margin: 0;
+}
+
+.other {
+  color: cyan;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.other:hover {
+  color: cyan;
+  transform: scale(1.7);
+  cursor: pointer;
+}
+
+footer {
+  background: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+}
+
+footer div {
+  padding: 50px;
+  color: goldenrod;
+  text-decoration: none;
+  height: 30px;
+}
